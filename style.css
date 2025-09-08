@@ -10,9 +10,16 @@ header ul li a {
 header ul li a:hover{
     color: rgb(175, 72, 4) !important;
 }
+
 header #menu{
-    color: rgb(56, 55, 55) !important;
+    text-decoration: underline;
+    
 }
+header .dropdown-menu{
+    background-color: rgb(37, 37, 37);
+    
+}
+
 
 header img{
     width: 50px;
@@ -25,6 +32,7 @@ header nav {
 }
 #aktiv{
     color: rgb(133, 130, 130) !important;
+    text-decoration: underline;
 }
 
 
@@ -44,3 +52,6 @@ footer{background-color: rgb(56, 55, 55);
 #mozgo img{
     height: 566px;
 }
+
+
+

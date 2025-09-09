@@ -22,8 +22,45 @@ iframe{
  #gems{
     height: 400px;
     background-image:url(gems.jpg) ;
+     color: white;
 }
 #gems h5{
     color: white;
     
 }
+
+#craft{
+       
+    height: 400px;
+    background-image:url(craft.jpg) ;
+
+
+    color: white;
+    
+    
+}
+
+.card{
+    border: 4px solid orange;
+    margin-bottom: 10px;
+}
+.card button {
+    background-color: rgb(161, 87, 2);
+    color: rgb(247, 243, 4);
+    width: 200px;
+    height: 50px;
+    border-radius: 40px;
+    font-weight: bold;
+    
+
+    
+}
+.card button:hover{
+    background-color: rgb(146, 3, 3);
+    color: black;
+    text-decoration: underline;
+}
+.card button:active{
+    background-color: rgb(226, 122, 3);
+}
+

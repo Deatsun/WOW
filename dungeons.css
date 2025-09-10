@@ -1,5 +1,6 @@
 body{
     background-image: url(../Kepek/dungeons.webp);
+    background-size: cover;
 }
 
 body::before{

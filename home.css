@@ -40,6 +40,25 @@ iframe{
     
 }
 
+#trinket{
+    background-image: url(trinket.jpg);
+      height: 400px;
+ color: white;
+}
+
+#vault{
+    background-image: url(great-vault.jpg);
+        height: 400px;
+ color: white;
+}
+
+
+
+
+
+
+
+
 .card{
     border: 4px solid orange;
     margin-bottom: 10px;

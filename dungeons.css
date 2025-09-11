@@ -12,5 +12,20 @@ body::before{
     opacity: 20%;
     z-index: -1;
 }
+h5{ color: white;}
+
+#arakara{
+    height: 400px;
+    background-image: url(Kepek/Arakara.jpg);
+    background-position: center;
+    background-size: cover;
+   
+    border: 2px solid orange;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+
 
 

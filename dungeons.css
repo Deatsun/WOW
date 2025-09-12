@@ -12,7 +12,9 @@ body::before{
     opacity: 20%;
     z-index: -1;
 }
-h5{ color: white;}
+h5{ color: white;
+text-align: center;
+margin: 1rem;}
 
 #arakara{
     height: 400px;
@@ -25,7 +27,45 @@ h5{ color: white;}
     display: flex;
     flex-direction: column;
     justify-content: flex-end;
+    
+    
+    
+    
 }
+#torzs a {
+    background-color: orange;
+    width: 150px;
+    text-align: center;
+    color: black;
+    font-weight: bold;
+    border-radius: 5px;
+    margin: 1rem;
+    border: 1px solid black;
+    text-decoration: none;
+    
+}
+#torzs a:hover{
+    background-color: rgb(155, 26, 3);
+    color: white;
+    text-decoration: underline;
+}
+#torzs a:active{
+    background-color: yellow;
+    color: black;
+
+}
+
+
+
+#torzs button{
+    background-color: rgb(148, 56, 3);
+    color: gold;
+    border: 1px solid rgb(10, 10, 10);
+    
+   
+    
+}
+
 
 
 

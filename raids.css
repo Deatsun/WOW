@@ -132,3 +132,7 @@ h1{
     font-weight: bold;
     
 }
+
+.raid:hover{
+    box-shadow: 5px 5px 20px white;
+}

@@ -42,7 +42,7 @@ margin: 1rem;}
     margin: 1rem;
     border: 1px solid black;
     text-decoration: none;
-    
+     
 }
 #torzs a:hover{
     background-color: rgb(155, 26, 3);
@@ -52,6 +52,7 @@ margin: 1rem;}
 #torzs a:active{
     background-color: yellow;
     color: black;
+   
 
 }
 
@@ -62,8 +63,13 @@ margin: 1rem;}
     color: gold;
     border: 1px solid rgb(10, 10, 10);
     
+    
    
     
+}
+
+.dungeon:hover{
+    box-shadow: 5px 5px 20px white;
 }
 
 

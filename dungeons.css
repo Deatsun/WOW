@@ -45,15 +45,23 @@ margin: 1rem;}
      
 }
 #torzs a:hover{
-    background-color: rgb(155, 26, 3);
-    color: white;
+     background-color: rgb(255, 94, 0);
+    border: 2px solid rgb(255, 94, 0);
     text-decoration: underline;
 }
 #torzs a:active{
-    background-color: yellow;
-    color: black;
+   background-color: yellow;
+    border: 2px solid yellow;
+    text-decoration: underline;
    
 
+}
+#doboz{
+    color: white;
+    width: fit-content;
+}
+.card {
+  background-color: transparent !important;
 }
 
 

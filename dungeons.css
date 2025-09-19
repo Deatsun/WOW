@@ -14,12 +14,13 @@ body::before{
 }
 h5{ color: white;
 text-align: center;
-margin-bottom: 30%;}
+}
 
-#arakara{
+
+
+.cards{
     height: 400px;
-    background-image: url(Kepek/Arakara.jpg);
-    background-position: center;
+   background-position: center;
     background-size: cover;
    
     border: 2px solid orange;
@@ -27,11 +28,11 @@ margin-bottom: 30%;}
     display: flex;
     flex-direction: column;
     justify-content: flex-end;
-    
-    
-    
-    
 }
+
+
+
+
 #torzs a {
     background-color: orange;
     width: 150px;
@@ -42,7 +43,6 @@ margin-bottom: 30%;}
    margin-bottom: 1rem;
     border: 1px solid black;
     text-decoration: none;
-     
 }
 #torzs a:hover{
      background-color: rgb(255, 94, 0);
@@ -53,38 +53,52 @@ margin-bottom: 30%;}
    background-color: yellow;
     border: 2px solid yellow;
     text-decoration: underline;
-   
-
 }
+
+
+
+
+
 #doboz{
     color: white;
     width: fit-content;
-   
-    
 }
 .card {
   background-color: transparent !important;
 }
-
-
-
 #torzs button{
     background-color: rgb(148, 56, 3);
     color: gold;
     border: 1px solid rgb(10, 10, 10);
-    
-    
-   
-    
 }
-
 .dungeon:hover{
     box-shadow: 5px 5px 20px white;
 }
 
+
+
+.cards hr{
+    color: white !important;
+}
  h1{
     text-align: center;
     font-weight: bold;
+}
+button:hover{
+    background-color: rgb(226, 84, 1) !important;
+    color: black !important;
+    font-weight: bold !important;
+    text-decoration: underline;
+}
+
+
+#arakara{
+   
+    background-image: url(Kepek/Arakara.jpg);
+}
+
+#flootgate{
+    background-image: url();
 }
 
 
